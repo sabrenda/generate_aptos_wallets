@@ -1,0 +1,24 @@
+{
+  "name": "generate_aptos_wallets",
+  "version": "1.0.0",
+  "description": "1. install [NodeJS](https://nodejs.org/en/download/) 2. Go to project folder and execute ```npm i``` 3. Enter the amount of wallets you want to generate in WALLETS_AMOUNT in index.js and execute 'npm run start' 4. Generated wallets will be printed in console in such form: public address;seed;private key",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabrenda/generate_aptos_wallets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabrenda/generate_aptos_wallets/issues"
+  },
+  "homepage": "https://github.com/sabrenda/generate_aptos_wallets#readme",
+  "dependencies": {
+    "aptos": "^1.10.0",
+    "bip39": "^3.1.0"
+  }
+}
