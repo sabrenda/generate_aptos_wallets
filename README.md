@@ -1,0 +1,1 @@
+# generate_aptos_wallets
